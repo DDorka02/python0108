@@ -11,4 +11,5 @@ import epuletek
 # sorozat.file_kiir(db)
 lista = epuletek.listaba()
 epuletek.kiiratas(lista)
+print(epuletek.nagyobb(lista))
 

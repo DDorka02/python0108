@@ -16,3 +16,12 @@ def listaba():
 
 def kiiratas(lista: list[Epulet.Epulet]):
     print(f"III/A, B:\n\t Az épületek száma: {len(lista)}")
+
+
+def nagyobb(lista):
+    db = 0
+    lab = 3.280839895
+    for i in range(len(lista)):
+        if lista[i].magassag * lab > 555:
+            db += 1
+    return f"III/C: \n\t 555 lábnál magasabb épületek száma: {db}"
