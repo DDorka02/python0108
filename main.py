@@ -12,4 +12,5 @@ import epuletek
 lista = epuletek.listaba()
 epuletek.kiiratas(lista)
 print(epuletek.nagyobb(lista))
+print(epuletek.legoregebb(lista))
 

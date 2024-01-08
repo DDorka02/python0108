@@ -25,3 +25,11 @@ def nagyobb(lista):
         if lista[i].magassag * lab > 555:
             db += 1
     return f"III/C: \n\t 555 lábnál magasabb épületek száma: {db}"
+
+
+def legoregebb(lista: list[Epulet.Epulet]):
+    lego = 0
+    for i in range(1, len(lista)):
+        if lista[lego].ev > lista[i].ev:
+            lego = i
+    return f"III/D: \n\t Legöregegebb épület országa: {lista[lego].orszag}"
